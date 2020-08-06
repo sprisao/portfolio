@@ -10,3 +10,28 @@ document.addEventListener("scroll", () => {
     navbar.classList.remove("navbar--dark");
   }
 });
+
+// Handle scrollling when tapping on the navbar menu
+const navbarMenu = document.querySelector(".navbar__menu");
+navbarMenu.addEventListener("click", (event) => {
+  const navbar_height = document.querySelector("#navbar").clientHeight;
+  const target = event.target;
+  const link = target.dataset.link;
+  if (link == null) {
+    return;
+  }
+  const scrollY = document.querySelector(link).offsetTop - navbar_height;
+  window.scrollTo({ top: scrollY, behavior: "smooth" });
+});
+
+// Handle click on "contact me" button on home
+
+const homeContactBtn = document.querySelector(".home__contact");
+homeContactBtn.addEventListener("click", () => {
+  scrollIntoView("#contact");
+});
+
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector);
+  scrollTo.scrollIntoView({ behavior: "smooth" });
+}
