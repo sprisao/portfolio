@@ -95,3 +95,9 @@ function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: "smooth" });
 }
+
+//SameSite Setting
+
+document.cookie = "safeCookie1=foo: SameSite=Lax";
+document.cookie = "safeCookie1=foo";
+document.cookie = "crossCookie=bar; SameSite=None; Secure";
