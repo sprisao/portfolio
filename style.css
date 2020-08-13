@@ -145,7 +145,7 @@ p {
 
 /* Home */
 #home {
-  background: url("portfolio/imgs/homebackground.png") center/cover no-repeat;
+  background: url("imgs/homebackground.png") center/cover no-repeat;
   padding: 40px;
   padding-top: 150px;
   text-align: center;
