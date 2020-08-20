@@ -100,14 +100,14 @@ p {
   justify-content: space-between;
   align-items: center;
   color: var(--color-white);
-  padding: 16px;
-  background-color: transparent;
+  padding: 0 80px;
+  background-color: var(--color-dark-grey)
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark-grey);
   opacity: 0.8;
 }
 
@@ -145,11 +145,10 @@ p {
 
 /* Home */
 #home {
-  background: url("https://sprisao.github.io/portfolio/imgs/homebackground.png")
+  background: url(/imgs/homebackground.png)
     center/cover no-repeat;
-  padding: 40px;
-  padding-top: 150px;
-  text-align: center;
+  padding: 0 80px;
+  text-align: left;
 }
 
 .home__avatar {
@@ -170,7 +169,7 @@ p {
   color: var(--color-white);
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  margin: 24px;
+  margin-top: 100px;
   padding: 8px 12px;
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
@@ -180,6 +179,10 @@ p {
   background-color: orange;
 }
 
+.home__container {
+  height: 540px;
+  padding: 150px 0;
+}
 /* Section common */
 .section {
   padding: 50px;
