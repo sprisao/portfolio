@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Place</title>
+    <title>어바웃_플레이스</title>
     <meta name="description" content="Find your favorite places" />
-    <meta name="author" content="About Place" />
+    <meta name="author" content="어바웃_플레이스" />
     <script
       src="https://kit.fontawesome.com/fcb5700e74.js"
       crossorigin="anonymous"
@@ -14,7 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/png" href="/portfolio/imgs/favicon.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
@@ -39,7 +42,7 @@
     <!-- Home -->
     <section id="home">
       <div class="home__container">
-        <h1 class="home__title">갈 곳을<br />찾고 계신가요?</h1>
+        <h1 class="home__title">장소를<br />찾고 계신가요?</h1>
         <p class="home__description">
           원주에 있는 어느장소든 쉽고 빠르게 찾아드립니다.
         </p>
@@ -50,263 +53,361 @@
     <!-- Category -->
     <section id="categoryItems" class="section">
       <div class="section__conatiner">
-        <div class="categoryItems__container">
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                음식점
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                카페
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                디저트
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                미용실
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                피트니스
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                요가
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                필라테스
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
-          <div class="categoryItem">
-            <button class="categoryItemBtn">
-              <span class="categoryItemBtn__name">
-                엔터테인먼트
-              </span>
-              <span class="categoryItemBtn__space"> </span>
-              <span class="categoryItemBtn__more">
-                <i class="fas fa-plus"></i>
-              </span>
-            </button>
-          </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              음식점
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              카페
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              디저트
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              미용실
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              피트니스
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              요가
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              필라테스
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="categoryItem">
+          <button class="categoryItemBtn">
+            <span class="categoryItemBtn__name">
+              엔터테인먼트
+            </span>
+            <span class="categoryItemBtn__space"> </span>
+            <span class="categoryItemBtn__more">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
         </div>
       </div>
     </section>
 
-    <!-- Work -->
-    <section id="work" class="section">
+    <!-- 실시간 핫 플레이스 -->
+
+    <section id="hotPlaces" class="section">
       <div class="section__container">
-        <h1>My Work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-          <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">8</span>
-          </button>
-          <button class="category__btn" data-filter="front-end">
-            Front-end<span class="category__count">3</span>
-          </button>
-          <button class="category__btn" data-filter="back-end">
-            Back-end<span class="category__count">3</span>
-          </button>
-          <button class="category__btn" data-filter="mobile">
-            Mobile<span class="category__count">2</span>
-          </button>
-        </div>
-        <div class="work__projects">
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="front-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+        <h3 class="card__container__name">이 시간 핫플레이스🔥</h3>
+
+        <div class="card__container">
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/silbermond1.jpg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>원주최강 감성포차 </span>
+            </div>
+            <div class="card__title">
+              <span>이태원클라스</span>
             </div>
           </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="front-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/silbermond2.JPG" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>반곡동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>건강한 라이프스타일과 힙한 감성</span>
+            </div>
+            <div class="card__title">
+              <span>SILBERMOND</span>
             </div>
           </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="front-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/cafe1.jpg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>커피빙수 존맛탱</span>
+            </div>
+            <div class="card__title">
+              <span>12 ANGELO</span>
             </div>
           </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="back-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/cafe7.jpg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>반곡동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>혁신도시 핫플레이스 카페</span>
+            </div>
+            <div class="card__title">
+              <span>GO APE</span>
             </div>
           </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="back-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/nakedbakery.jpg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>앙버터 레전드 맛집</span>
+            </div>
+            <div class="card__title">
+              <span>네이키드베이커리</span>
             </div>
           </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="back-end"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/slowweekend.jpg" alt="#" />
             </div>
-          </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="mobile"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>명륜동</span>
             </div>
-          </a>
-          <a
-            href="https://github.com/sprisao/portfolio/commits/master"
-            class="project"
-            target="blank"
-            data-type="mobile"
-          >
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
-            <div class="project__description">
-              <h3>Youtube site</h3>
-              <span>Lorem ipsum dolor sit amet consectetur.</span>
+            <div class="card__subtitle">
+              <span>탈원주급 감성 셀프스튜디오</span>
+            </div>
+            <div class="card__title">
+              <span>슬로우위켄드</span>
             </div>
           </a>
         </div>
       </div>
     </section>
-    <!-- Testmonials -->
-    <section id="testimonials" class="section">
+
+    <!-- 뉴 플레이스 -->
+    <section id="newPlaces" class="section">
       <div class="section__container">
-        <h1>Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-          <div class="testimonial">
-            <img
-              src="imgs/people1-200515-154332.jpg"
-              alt="People"
-              class="testimonial__avatar"
-            />
-            <div class="testimonial__speech-bubble">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                vel sint numquam similique dolorum distinctio praesentium
-                inventore, quibusdam facilis beatae incidunt sit accusantium!
-                Architecto maiores mollitia magni? Harum, aspernatur quibusdam.
-              </p>
-              <p class="name"><a href="">Bruce</a>/ Bruce Corporation</p>
+        <h3 class="card__container__name">신장개업! 새로 생긴 곳💫</h3>
+
+        <div class="card__container">
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/9block.jpeg" alt="#" />
             </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__speech-bubble">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                vel sint numquam similique dolorum distinctio praesentium
-                inventore, quibusdam facilis beatae incidunt sit accusantium!
-                Architecto maiores mollitia magni? Harum, aspernatur quibusdam.
-              </p>
-              <p class="name"><a href="">Bruce</a>/ Bruce Corporation</p>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
             </div>
-            <img
-              src="imgs/people1-200515-154332.jpg"
-              alt="People"
-              class="testimonial__avatar"
-            />
-          </div>
+            <div class="card__subtitle">
+              <span>원주최대 베이커리카페 </span>
+            </div>
+            <div class="card__title">
+              <span>나인블럭</span>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/goape1.jpeg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>반곡동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>떠오르는 힙플레이스!</span>
+            </div>
+            <div class="card__title">
+              <span>브루스커피</span>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/neukoelln.jpeg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>small town coffee shop</span>
+            </div>
+            <div class="card__title">
+              <span>노이쾰른</span>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/restaurant3.jpg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>반곡동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>가성비 최고 건강 밥집</span>
+            </div>
+            <div class="card__title">
+              <span>보릿고개</span>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/turdkgol.jpeg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>단계동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>원주안에 숨은 스위스! 독서카페</span>
+            </div>
+            <div class="card__title">
+              <span>터득골</span>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__imgBox">
+              <img id="card__img" src="/imgs/stores/goape2.jpeg" alt="#" />
+            </div>
+            <div class="card__tags">
+              <div class="card__rating">
+                <span>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span id="rating"> 5.0 (5)</span>
+              </div>
+              <span>명륜동</span>
+            </div>
+            <div class="card__subtitle">
+              <span>해외 리조트에 방문한 느낌</span>
+            </div>
+            <div class="card__title">
+              <span>HILTON</span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
+
     <!-- Contact -->
     <section id="contact" class="section">
-      <h1 class="contact__title">Lets talk</h1>
-      <h2 class="contact__email">bruce_corporation@naver.com</h2>
+      <h2 class="contact__title">어바웃_플레이스</h2>
       <div class="contact__links">
         <a href="" target="_blank">
           <i class="fab fa-github"></i>
@@ -315,7 +416,7 @@
           <i class="fa fa-linkedin-square"></i>
         </a>
         <p class="contact__rights">
-          2020 Bruce Corporation - All rights reserved
+          2020 어바웃_플레이스© - All rights reserved
         </p>
       </div>
     </section>
